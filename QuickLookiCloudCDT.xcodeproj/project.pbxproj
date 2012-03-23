@@ -12,23 +12,47 @@
 		AA746340151C74C3006386BB /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA74633F151C74C3006386BB /* CoreServices.framework */; };
 		AA746342151C74C3006386BB /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA746341151C74C3006386BB /* CoreFoundation.framework */; };
 		AA746348151C74C3006386BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA746346151C74C3006386BB /* InfoPlist.strings */; };
-		AA74634A151C74C3006386BB /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = AA746349151C74C3006386BB /* GenerateThumbnailForURL.c */; };
-		AA74634C151C74C3006386BB /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = AA74634B151C74C3006386BB /* GeneratePreviewForURL.c */; };
+		AA74634A151C74C3006386BB /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = AA746349151C74C3006386BB /* GenerateThumbnailForURL.m */; };
+		AA74634C151C74C3006386BB /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = AA74634B151C74C3006386BB /* GeneratePreviewForURL.m */; };
 		AA74634E151C74C3006386BB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AA74634D151C74C3006386BB /* main.c */; };
+		AA746366151C788D006386BB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA746365151C788D006386BB /* Cocoa.framework */; };
+		AA7463BD151C90C0006386BB /* ChangeLogUnzip in Resources */ = {isa = PBXBuildFile; fileRef = AA7463B1151C90C0006386BB /* ChangeLogUnzip */; };
+		AA7463BF151C90C0006386BB /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = AA7463B3151C90C0006386BB /* ioapi.c */; };
+		AA7463C1151C90C0006386BB /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = AA7463B5151C90C0006386BB /* mztools.c */; };
+		AA7463C3151C90C0006386BB /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = AA7463B7151C90C0006386BB /* unzip.c */; };
+		AA7463C5151C90C0006386BB /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = AA7463B9151C90C0006386BB /* zip.c */; };
+		AA7463C8151C90C0006386BB /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = AA7463BC151C90C0006386BB /* ZipArchive.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA746338151C74C3006386BB /* QuickLookiCloudCDT.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickLookiCloudCDT.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA01B852151CA39300BBF257 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AA01B856151CA39300BBF257 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AA01B857151CA39300BBF257 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AA01B858151CA39300BBF257 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA746338151C74C3006386BB /* iCloudCDT.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCloudCDT.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA74633B151C74C3006386BB /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		AA74633D151C74C3006386BB /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 		AA74633F151C74C3006386BB /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		AA746341151C74C3006386BB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		AA746345151C74C3006386BB /* QuickLookiCloudCDT-Info.plist */ = {isa = PBXFileReference; path = "QuickLookiCloudCDT-Info.plist"; sourceTree = "<group>"; };
+		AA746345151C74C3006386BB /* QuickLookiCloudCDT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuickLookiCloudCDT-Info.plist"; sourceTree = "<group>"; };
 		AA746347151C74C3006386BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AA746349151C74C3006386BB /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
-		AA74634B151C74C3006386BB /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		AA746349151C74C3006386BB /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
+		AA74634B151C74C3006386BB /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
 		AA74634D151C74C3006386BB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		AA74634F151C74C3006386BB /* QuickLookiCloudCDT-Prefix.pch */ = {isa = PBXFileReference; path = "QuickLookiCloudCDT-Prefix.pch"; sourceTree = "<group>"; };
+		AA74634F151C74C3006386BB /* QuickLookiCloudCDT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuickLookiCloudCDT-Prefix.pch"; sourceTree = "<group>"; };
+		AA746365151C788D006386BB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AA7463B1151C90C0006386BB /* ChangeLogUnzip */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLogUnzip; sourceTree = "<group>"; };
+		AA7463B2151C90C0006386BB /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = crypt.h; sourceTree = "<group>"; };
+		AA7463B3151C90C0006386BB /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		AA7463B4151C90C0006386BB /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = ioapi.h; sourceTree = "<group>"; };
+		AA7463B5151C90C0006386BB /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		AA7463B6151C90C0006386BB /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = mztools.h; sourceTree = "<group>"; };
+		AA7463B7151C90C0006386BB /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		AA7463B8151C90C0006386BB /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = unzip.h; sourceTree = "<group>"; };
+		AA7463B9151C90C0006386BB /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		AA7463BA151C90C0006386BB /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = zip.h; sourceTree = "<group>"; };
+		AA7463BB151C90C0006386BB /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		AA7463BC151C90C0006386BB /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA746366151C788D006386BB /* Cocoa.framework in Frameworks */,
 				AA74633C151C74C3006386BB /* QuickLook.framework in Frameworks */,
 				AA74633E151C74C3006386BB /* ApplicationServices.framework in Frameworks */,
 				AA746340151C74C3006386BB /* CoreServices.framework in Frameworks */,
@@ -46,6 +71,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA01B855151CA39300BBF257 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA01B856151CA39300BBF257 /* AppKit.framework */,
+				AA01B857151CA39300BBF257 /* CoreData.framework */,
+				AA01B858151CA39300BBF257 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
 		AA74632B151C74C3006386BB = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +93,7 @@
 		AA746339151C74C3006386BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA746338151C74C3006386BB /* QuickLookiCloudCDT.qlgenerator */,
+				AA746338151C74C3006386BB /* iCloudCDT.qlgenerator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,10 +101,14 @@
 		AA74633A151C74C3006386BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AA7463AF151C90C0006386BB /* ZipArchive */,
+				AA746365151C788D006386BB /* Cocoa.framework */,
 				AA74633B151C74C3006386BB /* QuickLook.framework */,
 				AA74633D151C74C3006386BB /* ApplicationServices.framework */,
 				AA74633F151C74C3006386BB /* CoreServices.framework */,
 				AA746341151C74C3006386BB /* CoreFoundation.framework */,
+				AA01B852151CA39300BBF257 /* SenTestingKit.framework */,
+				AA01B855151CA39300BBF257 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -77,8 +116,8 @@
 		AA746343151C74C3006386BB /* QuickLookiCloudCDT */ = {
 			isa = PBXGroup;
 			children = (
-				AA746349151C74C3006386BB /* GenerateThumbnailForURL.c */,
-				AA74634B151C74C3006386BB /* GeneratePreviewForURL.c */,
+				AA746349151C74C3006386BB /* GenerateThumbnailForURL.m */,
+				AA74634B151C74C3006386BB /* GeneratePreviewForURL.m */,
 				AA74634D151C74C3006386BB /* main.c */,
 				AA746344151C74C3006386BB /* Supporting Files */,
 			);
@@ -93,6 +132,34 @@
 				AA74634F151C74C3006386BB /* QuickLookiCloudCDT-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA7463AF151C90C0006386BB /* ZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				AA7463B0151C90C0006386BB /* minizip */,
+				AA7463BB151C90C0006386BB /* ZipArchive.h */,
+				AA7463BC151C90C0006386BB /* ZipArchive.mm */,
+			);
+			name = ZipArchive;
+			path = QuickLookiCloudCDT/Libraries/ZipArchive;
+			sourceTree = "<group>";
+		};
+		AA7463B0151C90C0006386BB /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				AA7463B1151C90C0006386BB /* ChangeLogUnzip */,
+				AA7463B2151C90C0006386BB /* crypt.h */,
+				AA7463B3151C90C0006386BB /* ioapi.c */,
+				AA7463B4151C90C0006386BB /* ioapi.h */,
+				AA7463B5151C90C0006386BB /* mztools.c */,
+				AA7463B6151C90C0006386BB /* mztools.h */,
+				AA7463B7151C90C0006386BB /* unzip.c */,
+				AA7463B8151C90C0006386BB /* unzip.h */,
+				AA7463B9151C90C0006386BB /* zip.c */,
+				AA7463BA151C90C0006386BB /* zip.h */,
+			);
+			path = minizip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +191,7 @@
 			);
 			name = QuickLookiCloudCDT;
 			productName = QuickLookiCloudCDT;
-			productReference = AA746338151C74C3006386BB /* QuickLookiCloudCDT.qlgenerator */;
+			productReference = AA746338151C74C3006386BB /* iCloudCDT.qlgenerator */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -159,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA746348151C74C3006386BB /* InfoPlist.strings in Resources */,
+				AA7463BD151C90C0006386BB /* ChangeLogUnzip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,9 +247,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA74634A151C74C3006386BB /* GenerateThumbnailForURL.c in Sources */,
-				AA74634C151C74C3006386BB /* GeneratePreviewForURL.c in Sources */,
+				AA74634A151C74C3006386BB /* GenerateThumbnailForURL.m in Sources */,
+				AA74634C151C74C3006386BB /* GeneratePreviewForURL.m in Sources */,
 				AA74634E151C74C3006386BB /* main.c in Sources */,
+				AA7463BF151C90C0006386BB /* ioapi.c in Sources */,
+				AA7463C1151C90C0006386BB /* mztools.c in Sources */,
+				AA7463C3151C90C0006386BB /* unzip.c in Sources */,
+				AA7463C5151C90C0006386BB /* zip.c in Sources */,
+				AA7463C8151C90C0006386BB /* ZipArchive.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +326,8 @@
 				GCC_PREFIX_HEADER = "QuickLookiCloudCDT/QuickLookiCloudCDT-Prefix.pch";
 				INFOPLIST_FILE = "QuickLookiCloudCDT/QuickLookiCloudCDT-Info.plist";
 				INSTALL_PATH = /Library/QuickLook;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_LDFLAGS = "-lz";
+				PRODUCT_NAME = iCloudCDT;
 				WRAPPER_EXTENSION = qlgenerator;
 			};
 			name = Debug;
@@ -265,7 +339,8 @@
 				GCC_PREFIX_HEADER = "QuickLookiCloudCDT/QuickLookiCloudCDT-Prefix.pch";
 				INFOPLIST_FILE = "QuickLookiCloudCDT/QuickLookiCloudCDT-Info.plist";
 				INSTALL_PATH = /Library/QuickLook;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_LDFLAGS = "-lz";
+				PRODUCT_NAME = iCloudCDT;
 				WRAPPER_EXTENSION = qlgenerator;
 			};
 			name = Release;
@@ -289,6 +364,7 @@
 				AA746354151C74C3006386BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
