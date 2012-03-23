@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA74633C151C74C3006386BB /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA74633B151C74C3006386BB /* QuickLook.framework */; };
+		AA74633E151C74C3006386BB /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA74633D151C74C3006386BB /* ApplicationServices.framework */; };
+		AA746340151C74C3006386BB /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA74633F151C74C3006386BB /* CoreServices.framework */; };
+		AA746342151C74C3006386BB /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA746341151C74C3006386BB /* CoreFoundation.framework */; };
+		AA746348151C74C3006386BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA746346151C74C3006386BB /* InfoPlist.strings */; };
+		AA74634A151C74C3006386BB /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = AA746349151C74C3006386BB /* GenerateThumbnailForURL.c */; };
+		AA74634C151C74C3006386BB /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = AA74634B151C74C3006386BB /* GeneratePreviewForURL.c */; };
+		AA74634E151C74C3006386BB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AA74634D151C74C3006386BB /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA746338151C74C3006386BB /* QuickLookiCloudCDT.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickLookiCloudCDT.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA74633B151C74C3006386BB /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		AA74633D151C74C3006386BB /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		AA74633F151C74C3006386BB /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		AA746341151C74C3006386BB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		AA746345151C74C3006386BB /* QuickLookiCloudCDT-Info.plist */ = {isa = PBXFileReference; path = "QuickLookiCloudCDT-Info.plist"; sourceTree = "<group>"; };
+		AA746347151C74C3006386BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA746349151C74C3006386BB /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
+		AA74634B151C74C3006386BB /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		AA74634D151C74C3006386BB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		AA74634F151C74C3006386BB /* QuickLookiCloudCDT-Prefix.pch */ = {isa = PBXFileReference; path = "QuickLookiCloudCDT-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA746333151C74C3006386BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA74633C151C74C3006386BB /* QuickLook.framework in Frameworks */,
+				AA74633E151C74C3006386BB /* ApplicationServices.framework in Frameworks */,
+				AA746340151C74C3006386BB /* CoreServices.framework in Frameworks */,
+				AA746342151C74C3006386BB /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA74632B151C74C3006386BB = {
+			isa = PBXGroup;
+			children = (
+				AA746343151C74C3006386BB /* QuickLookiCloudCDT */,
+				AA74633A151C74C3006386BB /* Frameworks */,
+				AA746339151C74C3006386BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA746339151C74C3006386BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA746338151C74C3006386BB /* QuickLookiCloudCDT.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA74633A151C74C3006386BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA74633B151C74C3006386BB /* QuickLook.framework */,
+				AA74633D151C74C3006386BB /* ApplicationServices.framework */,
+				AA74633F151C74C3006386BB /* CoreServices.framework */,
+				AA746341151C74C3006386BB /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA746343151C74C3006386BB /* QuickLookiCloudCDT */ = {
+			isa = PBXGroup;
+			children = (
+				AA746349151C74C3006386BB /* GenerateThumbnailForURL.c */,
+				AA74634B151C74C3006386BB /* GeneratePreviewForURL.c */,
+				AA74634D151C74C3006386BB /* main.c */,
+				AA746344151C74C3006386BB /* Supporting Files */,
+			);
+			path = QuickLookiCloudCDT;
+			sourceTree = "<group>";
+		};
+		AA746344151C74C3006386BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA746345151C74C3006386BB /* QuickLookiCloudCDT-Info.plist */,
+				AA746346151C74C3006386BB /* InfoPlist.strings */,
+				AA74634F151C74C3006386BB /* QuickLookiCloudCDT-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA746334151C74C3006386BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AA746337151C74C3006386BB /* QuickLookiCloudCDT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA746352151C74C3006386BB /* Build configuration list for PBXNativeTarget "QuickLookiCloudCDT" */;
+			buildPhases = (
+				AA746332151C74C3006386BB /* Sources */,
+				AA746333151C74C3006386BB /* Frameworks */,
+				AA746334151C74C3006386BB /* Headers */,
+				AA746335151C74C3006386BB /* Resources */,
+				AA746336151C74C3006386BB /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickLookiCloudCDT;
+			productName = QuickLookiCloudCDT;
+			productReference = AA746338151C74C3006386BB /* QuickLookiCloudCDT.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA74632D151C74C3006386BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Christian Beer";
+			};
+			buildConfigurationList = AA746330151C74C3006386BB /* Build configuration list for PBXProject "QuickLookiCloudCDT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA74632B151C74C3006386BB;
+			productRefGroup = AA746339151C74C3006386BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA746337151C74C3006386BB /* QuickLookiCloudCDT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA746335151C74C3006386BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA746348151C74C3006386BB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		AA746336151C74C3006386BB /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA746332151C74C3006386BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA74634A151C74C3006386BB /* GenerateThumbnailForURL.c in Sources */,
+				AA74634C151C74C3006386BB /* GeneratePreviewForURL.c in Sources */,
+				AA74634E151C74C3006386BB /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA746346151C74C3006386BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA746347151C74C3006386BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA746350151C74C3006386BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA746351151C74C3006386BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA746353151C74C3006386BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickLookiCloudCDT/QuickLookiCloudCDT-Prefix.pch";
+				INFOPLIST_FILE = "QuickLookiCloudCDT/QuickLookiCloudCDT-Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		AA746354151C74C3006386BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickLookiCloudCDT/QuickLookiCloudCDT-Prefix.pch";
+				INFOPLIST_FILE = "QuickLookiCloudCDT/QuickLookiCloudCDT-Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA746330151C74C3006386BB /* Build configuration list for PBXProject "QuickLookiCloudCDT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA746350151C74C3006386BB /* Debug */,
+				AA746351151C74C3006386BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA746352151C74C3006386BB /* Build configuration list for PBXNativeTarget "QuickLookiCloudCDT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA746353151C74C3006386BB /* Debug */,
+				AA746354151C74C3006386BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA74632D151C74C3006386BB /* Project object */;
+}
